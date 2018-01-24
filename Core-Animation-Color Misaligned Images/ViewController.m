@@ -21,14 +21,18 @@ static NSString * const shouldRasterizeIdentifer = @"shouldRasterizeIdentifer";
 
 @implementation ViewController
 
+#pragma mark - life cycle
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
     //[self.view addSubview:self.tableView];
-      [self test];
+    [self test];
     [self testNumber];
 
 }
+
+#pragma mark - method
 
 - (void)test {
     
@@ -96,12 +100,8 @@ static NSString * const shouldRasterizeIdentifer = @"shouldRasterizeIdentifer";
     //cell.bigImageView.image = [UIImage imageNamed:images[arc4random() % 4]];
     //cell.bigImageView.image = [UIImage imageNamed:@"icon_message_ateacher"];
     cell.bigImageView.contentMode = UIViewContentModeScaleAspectFit;
-    //
-    //cell.bigImageView.backgroundColor = [UIColor redColor];
     cell.titleLabel.text = @"sunjie";
-    //[cell.textLabel sizeToFit];
-    // cell.layer.shouldRasterize = YES;
-    
+
     if (indexPath.row == 0) {
         cell.bigImageView.image = [UIImage imageNamed:@"me_couseDownload_pdf"];
         cell.bigImageView.frame = CGRectMake(10, 10, 60,61);
@@ -118,14 +118,13 @@ static NSString * const shouldRasterizeIdentifer = @"shouldRasterizeIdentifer";
         cell.bigImageView.frame = CGRectMake(10, 10, 55, 55);
     } else  {
         cell.bigImageView.image = [UIImage imageNamed:@"icon_message_ateacher"];
-        
         [cell.bigImageView sizeToFit];
     }
-    //[cell.bigImageView sizeToFit];
-    //cell.bigImageView.layer.shouldRasterize = YES;
-    
+
     return cell;
 }
+
+#pragma mark - Property
 
 - (UITableView *)tableView {
     if (!_tableView) {
