@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14E8824F201878AB00702D22 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E8824E201878AB00702D22 /* AppDelegate.m */; };
+		14E88252201878AC00702D22 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E88251201878AC00702D22 /* ViewController.m */; };
+		14E88255201878AD00702D22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14E88253201878AD00702D22 /* Main.storyboard */; };
+		14E88257201878AD00702D22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14E88256201878AD00702D22 /* Assets.xcassets */; };
+		14E8825A201878AD00702D22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14E88258201878AD00702D22 /* LaunchScreen.storyboard */; };
+		14E8825D201878AD00702D22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E8825C201878AD00702D22 /* main.m */; };
+		14E88267201878AE00702D22 /* Core_Animation_Color_Misaligned_ImagesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E88266201878AE00702D22 /* Core_Animation_Color_Misaligned_ImagesTests.m */; };
+		14E88272201878AE00702D22 /* Core_Animation_Color_Misaligned_ImagesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E88271201878AE00702D22 /* Core_Animation_Color_Misaligned_ImagesUITests.m */; };
+		14E88281201878D700702D22 /* UIImage+rate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E8827F201878D700702D22 /* UIImage+rate.m */; };
+		14E88284201878E600702D22 /* UIView+Align.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E88283201878E600702D22 /* UIView+Align.m */; };
+		14E882872018797700702D22 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E882862018797700702D22 /* TableViewCell.m */; };
+		14E8828C201879FD00702D22 /* me_couseDownload_pdf@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14E88288201879FD00702D22 /* me_couseDownload_pdf@3x.png */; };
+		14E8828D201879FD00702D22 /* icon_message_ateacher@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14E88289201879FD00702D22 /* icon_message_ateacher@3x.png */; };
+		14E8828E201879FD00702D22 /* me_couseDownload_pdf@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14E8828A201879FD00702D22 /* me_couseDownload_pdf@2x.png */; };
+		14E8828F201879FD00702D22 /* icon_message_ateacher@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14E8828B201879FD00702D22 /* icon_message_ateacher@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14E88263201878AD00702D22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14E88242201878AA00702D22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14E88249201878AA00702D22;
+			remoteInfo = "Core-Animation-Color Misaligned Images";
+		};
+		14E8826E201878AE00702D22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14E88242201878AA00702D22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14E88249201878AA00702D22;
+			remoteInfo = "Core-Animation-Color Misaligned Images";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14E8824A201878AA00702D22 /* Core-Animation-Color Misaligned Images.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Core-Animation-Color Misaligned Images.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14E8824D201878AA00702D22 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		14E8824E201878AB00702D22 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		14E88250201878AB00702D22 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		14E88251201878AC00702D22 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		14E88254201878AD00702D22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14E88256201878AD00702D22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14E88259201878AD00702D22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14E8825B201878AD00702D22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14E8825C201878AD00702D22 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14E88262201878AD00702D22 /* Core-Animation-Color Misaligned ImagesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Core-Animation-Color Misaligned ImagesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14E88266201878AE00702D22 /* Core_Animation_Color_Misaligned_ImagesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Core_Animation_Color_Misaligned_ImagesTests.m; sourceTree = "<group>"; };
+		14E88268201878AE00702D22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14E8826D201878AE00702D22 /* Core-Animation-Color Misaligned ImagesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Core-Animation-Color Misaligned ImagesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14E88271201878AE00702D22 /* Core_Animation_Color_Misaligned_ImagesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Core_Animation_Color_Misaligned_ImagesUITests.m; sourceTree = "<group>"; };
+		14E88273201878AE00702D22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14E8827F201878D700702D22 /* UIImage+rate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+rate.m"; sourceTree = "<group>"; };
+		14E88280201878D700702D22 /* UIImage+rate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+rate.h"; sourceTree = "<group>"; };
+		14E88282201878E500702D22 /* UIView+Align.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Align.h"; sourceTree = "<group>"; };
+		14E88283201878E600702D22 /* UIView+Align.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Align.m"; sourceTree = "<group>"; };
+		14E882852018797700702D22 /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		14E882862018797700702D22 /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		14E88288201879FD00702D22 /* me_couseDownload_pdf@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "me_couseDownload_pdf@3x.png"; sourceTree = "<group>"; };
+		14E88289201879FD00702D22 /* icon_message_ateacher@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_message_ateacher@3x.png"; sourceTree = "<group>"; };
+		14E8828A201879FD00702D22 /* me_couseDownload_pdf@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "me_couseDownload_pdf@2x.png"; sourceTree = "<group>"; };
+		14E8828B201879FD00702D22 /* icon_message_ateacher@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_message_ateacher@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14E88247201878AA00702D22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14E8825F201878AD00702D22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14E8826A201878AE00702D22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14E88241201878A900702D22 = {
+			isa = PBXGroup;
+			children = (
+				14E8824C201878AA00702D22 /* Core-Animation-Color Misaligned Images */,
+				14E88265201878AD00702D22 /* Core-Animation-Color Misaligned ImagesTests */,
+				14E88270201878AE00702D22 /* Core-Animation-Color Misaligned ImagesUITests */,
+				14E8824B201878AA00702D22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14E8824B201878AA00702D22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14E8824A201878AA00702D22 /* Core-Animation-Color Misaligned Images.app */,
+				14E88262201878AD00702D22 /* Core-Animation-Color Misaligned ImagesTests.xctest */,
+				14E8826D201878AE00702D22 /* Core-Animation-Color Misaligned ImagesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14E8824C201878AA00702D22 /* Core-Animation-Color Misaligned Images */ = {
+			isa = PBXGroup;
+			children = (
+				14E88280201878D700702D22 /* UIImage+rate.h */,
+				14E8827F201878D700702D22 /* UIImage+rate.m */,
+				14E88282201878E500702D22 /* UIView+Align.h */,
+				14E88283201878E600702D22 /* UIView+Align.m */,
+				14E8824D201878AA00702D22 /* AppDelegate.h */,
+				14E8824E201878AB00702D22 /* AppDelegate.m */,
+				14E88250201878AB00702D22 /* ViewController.h */,
+				14E88251201878AC00702D22 /* ViewController.m */,
+				14E882852018797700702D22 /* TableViewCell.h */,
+				14E882862018797700702D22 /* TableViewCell.m */,
+				14E88253201878AD00702D22 /* Main.storyboard */,
+				14E88256201878AD00702D22 /* Assets.xcassets */,
+				14E88258201878AD00702D22 /* LaunchScreen.storyboard */,
+				14E8825B201878AD00702D22 /* Info.plist */,
+				14E8825C201878AD00702D22 /* main.m */,
+				14E8828B201879FD00702D22 /* icon_message_ateacher@2x.png */,
+				14E88289201879FD00702D22 /* icon_message_ateacher@3x.png */,
+				14E8828A201879FD00702D22 /* me_couseDownload_pdf@2x.png */,
+				14E88288201879FD00702D22 /* me_couseDownload_pdf@3x.png */,
+			);
+			path = "Core-Animation-Color Misaligned Images";
+			sourceTree = "<group>";
+		};
+		14E88265201878AD00702D22 /* Core-Animation-Color Misaligned ImagesTests */ = {
+			isa = PBXGroup;
+			children = (
+				14E88266201878AE00702D22 /* Core_Animation_Color_Misaligned_ImagesTests.m */,
+				14E88268201878AE00702D22 /* Info.plist */,
+			);
+			path = "Core-Animation-Color Misaligned ImagesTests";
+			sourceTree = "<group>";
+		};
+		14E88270201878AE00702D22 /* Core-Animation-Color Misaligned ImagesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				14E88271201878AE00702D22 /* Core_Animation_Color_Misaligned_ImagesUITests.m */,
+				14E88273201878AE00702D22 /* Info.plist */,
+			);
+			path = "Core-Animation-Color Misaligned ImagesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14E88249201878AA00702D22 /* Core-Animation-Color Misaligned Images */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14E88276201878AE00702D22 /* Build configuration list for PBXNativeTarget "Core-Animation-Color Misaligned Images" */;
+			buildPhases = (
+				14E88246201878AA00702D22 /* Sources */,
+				14E88247201878AA00702D22 /* Frameworks */,
+				14E88248201878AA00702D22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Core-Animation-Color Misaligned Images";
+			productName = "Core-Animation-Color Misaligned Images";
+			productReference = 14E8824A201878AA00702D22 /* Core-Animation-Color Misaligned Images.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14E88261201878AD00702D22 /* Core-Animation-Color Misaligned ImagesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14E88279201878AE00702D22 /* Build configuration list for PBXNativeTarget "Core-Animation-Color Misaligned ImagesTests" */;
+			buildPhases = (
+				14E8825E201878AD00702D22 /* Sources */,
+				14E8825F201878AD00702D22 /* Frameworks */,
+				14E88260201878AD00702D22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14E88264201878AD00702D22 /* PBXTargetDependency */,
+			);
+			name = "Core-Animation-Color Misaligned ImagesTests";
+			productName = "Core-Animation-Color Misaligned ImagesTests";
+			productReference = 14E88262201878AD00702D22 /* Core-Animation-Color Misaligned ImagesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		14E8826C201878AE00702D22 /* Core-Animation-Color Misaligned ImagesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14E8827C201878AE00702D22 /* Build configuration list for PBXNativeTarget "Core-Animation-Color Misaligned ImagesUITests" */;
+			buildPhases = (
+				14E88269201878AE00702D22 /* Sources */,
+				14E8826A201878AE00702D22 /* Frameworks */,
+				14E8826B201878AE00702D22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14E8826F201878AE00702D22 /* PBXTargetDependency */,
+			);
+			name = "Core-Animation-Color Misaligned ImagesUITests";
+			productName = "Core-Animation-Color Misaligned ImagesUITests";
+			productReference = 14E8826D201878AE00702D22 /* Core-Animation-Color Misaligned ImagesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14E88242201878AA00702D22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = sxmaps;
+				TargetAttributes = {
+					14E88249201878AA00702D22 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					14E88261201878AD00702D22 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 14E88249201878AA00702D22;
+					};
+					14E8826C201878AE00702D22 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 14E88249201878AA00702D22;
+					};
+				};
+			};
+			buildConfigurationList = 14E88245201878AA00702D22 /* Build configuration list for PBXProject "Core-Animation-Color Misaligned Images" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14E88241201878A900702D22;
+			productRefGroup = 14E8824B201878AA00702D22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14E88249201878AA00702D22 /* Core-Animation-Color Misaligned Images */,
+				14E88261201878AD00702D22 /* Core-Animation-Color Misaligned ImagesTests */,
+				14E8826C201878AE00702D22 /* Core-Animation-Color Misaligned ImagesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14E88248201878AA00702D22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14E8825A201878AD00702D22 /* LaunchScreen.storyboard in Resources */,
+				14E8828D201879FD00702D22 /* icon_message_ateacher@3x.png in Resources */,
+				14E88257201878AD00702D22 /* Assets.xcassets in Resources */,
+				14E8828E201879FD00702D22 /* me_couseDownload_pdf@2x.png in Resources */,
+				14E8828C201879FD00702D22 /* me_couseDownload_pdf@3x.png in Resources */,
+				14E88255201878AD00702D22 /* Main.storyboard in Resources */,
+				14E8828F201879FD00702D22 /* icon_message_ateacher@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14E88260201878AD00702D22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14E8826B201878AE00702D22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14E88246201878AA00702D22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14E88252201878AC00702D22 /* ViewController.m in Sources */,
+				14E882872018797700702D22 /* TableViewCell.m in Sources */,
+				14E88281201878D700702D22 /* UIImage+rate.m in Sources */,
+				14E8825D201878AD00702D22 /* main.m in Sources */,
+				14E88284201878E600702D22 /* UIView+Align.m in Sources */,
+				14E8824F201878AB00702D22 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14E8825E201878AD00702D22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14E88267201878AE00702D22 /* Core_Animation_Color_Misaligned_ImagesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14E88269201878AE00702D22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14E88272201878AE00702D22 /* Core_Animation_Color_Misaligned_ImagesUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14E88264201878AD00702D22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14E88249201878AA00702D22 /* Core-Animation-Color Misaligned Images */;
+			targetProxy = 14E88263201878AD00702D22 /* PBXContainerItemProxy */;
+		};
+		14E8826F201878AE00702D22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14E88249201878AA00702D22 /* Core-Animation-Color Misaligned Images */;
+			targetProxy = 14E8826E201878AE00702D22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		14E88253201878AD00702D22 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14E88254201878AD00702D22 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14E88258201878AD00702D22 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14E88259201878AD00702D22 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14E88274201878AE00702D22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		14E88275201878AE00702D22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14E88277201878AE00702D22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56P78W32BT;
+				INFOPLIST_FILE = "Core-Animation-Color Misaligned Images/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com..Core-Animation-Color-Misaligned-Images";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14E88278201878AE00702D22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56P78W32BT;
+				INFOPLIST_FILE = "Core-Animation-Color Misaligned Images/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com..Core-Animation-Color-Misaligned-Images";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		14E8827A201878AE00702D22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Core-Animation-Color Misaligned ImagesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com..Core-Animation-Color-Misaligned-ImagesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Core-Animation-Color Misaligned Images.app/Core-Animation-Color Misaligned Images";
+			};
+			name = Debug;
+		};
+		14E8827B201878AE00702D22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Core-Animation-Color Misaligned ImagesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com..Core-Animation-Color-Misaligned-ImagesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Core-Animation-Color Misaligned Images.app/Core-Animation-Color Misaligned Images";
+			};
+			name = Release;
+		};
+		14E8827D201878AE00702D22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Core-Animation-Color Misaligned ImagesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com..Core-Animation-Color-Misaligned-ImagesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Core-Animation-Color Misaligned Images";
+			};
+			name = Debug;
+		};
+		14E8827E201878AE00702D22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Core-Animation-Color Misaligned ImagesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com..Core-Animation-Color-Misaligned-ImagesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Core-Animation-Color Misaligned Images";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14E88245201878AA00702D22 /* Build configuration list for PBXProject "Core-Animation-Color Misaligned Images" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14E88274201878AE00702D22 /* Debug */,
+				14E88275201878AE00702D22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14E88276201878AE00702D22 /* Build configuration list for PBXNativeTarget "Core-Animation-Color Misaligned Images" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14E88277201878AE00702D22 /* Debug */,
+				14E88278201878AE00702D22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14E88279201878AE00702D22 /* Build configuration list for PBXNativeTarget "Core-Animation-Color Misaligned ImagesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14E8827A201878AE00702D22 /* Debug */,
+				14E8827B201878AE00702D22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14E8827C201878AE00702D22 /* Build configuration list for PBXNativeTarget "Core-Animation-Color Misaligned ImagesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14E8827D201878AE00702D22 /* Debug */,
+				14E8827E201878AE00702D22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14E88242201878AA00702D22 /* Project object */;
+}
